@@ -43,3 +43,4 @@ if (await solver.check() === "sat") {
     console.log("unsat. Could not find a valid value for x.");
 
 }
+solver.reset()
